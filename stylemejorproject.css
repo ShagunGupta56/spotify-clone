@@ -6,7 +6,7 @@ body {
   margin : 0;
   background-color: #000;
   color: #fff;
-  overflow: hidden; 
+  overflow-x: hidden; 
   /* scroll krke dekh skte hai pura */
 }
 
@@ -250,4 +250,59 @@ a{
   background-color: #1bd760;
   border-radius: 50%;
   margin-top: -6px;
+}
+@media (max-width: 768px) {
+
+  .sidebar{
+    display: none;
+  }
+
+  .main{
+    padding: 0;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .cards-container{
+    justify-content: center;
+  }
+
+  .card{
+    width: 90%;
+    margin-left: 0;
+  }
+
+}
+@media (max-width: 768px) {
+
+  .album{
+    display: none;
+  }
+
+  .controls{
+    display: none;
+  }
+
+  .player{
+    width: 100%;
+  }
+
+  .player-control-icon{
+    margin-right: 1.5rem;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  body{
+    font-size: 14px;
+  }
+
+  .main-content{
+    padding: 0 1rem;
+  }
+
 }
